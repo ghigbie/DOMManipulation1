@@ -5,3 +5,8 @@
 	color: blue;
 	border: 10px solid orange;
 }
+
+.big {
+	font-size: 100px;
+	color: orange;
+}
