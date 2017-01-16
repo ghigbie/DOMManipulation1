@@ -1,3 +1,7 @@
 /*This file was created in the command line*/
 
 
+.blue {
+	color: blue;
+	border: 10px solid orange;
+}
