@@ -18,11 +18,23 @@ paragraph.classList.add("big");
 
 //class list is not an array so we cannot use .push or .pop mehtods
 
-
 //changing text in a tag
 //textContent
 
 var tag1 = document.querySelector("p");
-tag1.textContent = "yo yo yo!!!"
+tag1.textContent = "yo yo yo!!!";
+
+var tag2 = document.getElementsByTagName("p")[0];
+tag2.textContent = "Doggie";
+
+//innerHTML -maintains structur of html	
+
+var tag3 =  document.getElementsByTagName("p")[1];
+tag3.innerHTML = "This ";
+
+var ul = document.querySelector("ul");
+ul.innerHTML = "Plants are awesome!";
+
+document.querySelector("h1").textContent = "END OF THIS LESSON!";
 
 
