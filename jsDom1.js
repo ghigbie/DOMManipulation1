@@ -42,3 +42,4 @@ var img = document.querySelector("img")[0];
 
 var a = document.querySelector("a");
 a.setAttribute("href", "http://www.corgis.com");
+a.textContent = "Link to Corgis.com";
