@@ -29,12 +29,16 @@ tag2.textContent = "Doggie";
 
 //innerHTML -maintains structur of html	
 
-var tag3 =  document.getElementsByTagName("p")[1];
-tag3.innerHTML = "This ";
+var tag3 =  document.getElementsByTagName("h3");
+tag3.innerHTML = "This is not the case";
 
 var ul = document.querySelector("ul");
 ul.innerHTML = "Plants are awesome!";
 
 document.querySelector("h1").textContent = "END OF THIS LESSON!";
 
+var img = document.querySelector("img")[0];
+//img.setAttribute("src", "http://placekitten.com/g/300/300");
 
+var a = document.querySelector("a");
+a.setAttribute("href", "http://www.corgis.com");
