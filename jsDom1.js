@@ -16,3 +16,13 @@ tag.classList.toggle("another-class");//togles a class
 var paragraph = document.querySelector("p");
 paragraph.classList.add("big");
 
+//class list is not an array so we cannot use .push or .pop mehtods
+
+
+//changing text in a tag
+//textContent
+
+var tag1 = document.querySelector("p");
+tag1.textContent = "yo yo yo!!!"
+
+
